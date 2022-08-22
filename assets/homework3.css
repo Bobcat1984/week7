@@ -68,9 +68,9 @@ grid-template-areas:
         width: 100%;
     }
     aside {
-        width: 30%;
+        width: 10%;
     }
      main {
-        width: 70%;
+        width: 90%;
   }
 }
