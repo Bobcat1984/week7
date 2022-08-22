@@ -56,7 +56,7 @@ grid-template-areas:
   section.footer {
     display: grid;
     justify-content: space-between;
-    gap: 15px;
+    gap: 10px;
     background-color: #bea6a6;
   }
   
@@ -67,4 +67,10 @@ grid-template-areas:
     header {
         width: 100%;
     }
+    aside {
+        width: 30%;
+    }
+     main {
+        width: 70%;
   }
+}
