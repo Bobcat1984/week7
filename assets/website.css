@@ -69,7 +69,8 @@ main {
 img {
   display: grid;
   grid-row: 1/2;
-  justify-content: center;
+  grid-column: span 3;
+  justify-items: center;
   align-content: space-evenly;
   gap: 5px;
   width: 16vw;
