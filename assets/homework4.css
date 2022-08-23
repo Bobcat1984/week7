@@ -86,7 +86,7 @@ section.footer {
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) and (min-height: 932) {
+@media screen and (min-width: 768px) and (max-width: 1023px) and (min-height: 932px) {
   body {
     display: grid;
     grid-template-columns: 1fr 20%;
