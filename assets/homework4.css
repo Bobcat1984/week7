@@ -60,16 +60,15 @@ section.footer {
   gap: 10px;
   background-color: #bea6a6;
 }
-@media screen and (max-width) {
-}
-@media screen and (max-width: 767px) {
+
+@media screen and (min-width: 481px) (max-width: 767px) {
   body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10% 1fr;
-    grid-template-areas: 
-    "header"
-    "main";
+    grid-template-areas:
+      "header"
+      "main";
   }
 
   header {
