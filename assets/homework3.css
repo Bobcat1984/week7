@@ -61,13 +61,6 @@ grid-template-areas:
   }
   
   @media screen and (max-width:720px) {
-    h1 {
-      font-size: 30%;
-    }
-
-    h3 {
-      font-size: 30%;
-    }
     footer{
         display: none;
     }
@@ -75,10 +68,10 @@ grid-template-areas:
         width: 100%;
     }
     .sidebar {
-        width: 50vw;
+        width: 50%;
         justify-content: stretch;
     }
      main {
-        width: 50vw;
+        width: 50%
   }
 }
