@@ -61,6 +61,9 @@ grid-template-areas:
   }
   
   @media screen and (max-width:720px) {
+    h1 {
+      font-size: 1em;
+    }
     footer{
         display: none;
     }
@@ -69,6 +72,7 @@ grid-template-areas:
     }
     aside {
         width: 10%;
+        justify-content: center;
     }
      main {
         width: 90%;
