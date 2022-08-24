@@ -1,7 +1,8 @@
 .container {
   display: grid;
-  grid-template-columns: repeat (auto-fit, minmax(100px, 1fr));
-  grid-template-rows: 1fr repeat(2, 50px);
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .container > div > img {
